@@ -12,6 +12,8 @@ A SQL builder & result scanner for Go. This library is still in development. Use
 ### Start the connection
 ```
 // Connect to database
+import s2s "github.com/mingchoi/struct2sql"
+
 db, err := s2s.Open("mysql", "gomysql:123456@/gomysql?charset=utf8&parseTime=True&loc=Local")
 if err != nil {
     panic(err)
