@@ -1,5 +1,5 @@
 # Struct2SQL
-A SQL builder & result scanner for Go. This library is still in development. Use it on your own risk.
+A SQL builder & result scanner for Go. This library is made for study propose. Use it on your own risk.
 
 ### What's inside?
 * Struct analyzer - mapping your struct to a table in the database
